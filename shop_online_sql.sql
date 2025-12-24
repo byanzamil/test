@@ -1,7 +1,4 @@
-DROP TABLE customers;
-DROP TABLE products;
-DROP TABLE orders;
-DROP TABLE order_items;
+
 create table customers (
 	id SERIAL PRIMARY KEY, 
 	full_name TEXT NOT NULL,
